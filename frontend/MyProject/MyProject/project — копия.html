@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="css/style3.css">
+    <title>project1</title>
+</head>
+<!-- <body class="bg">
+    <form class="mesto">
+        <input class="mesto" type="search" placeholder="Что ищем?">
+        <button class="custom-btn btn-6"><span>искать</span></button>
+      </form> -->
+<form id="content">
+    <input type="text" name="input" class="input" id="search-input">
+    <button type="reset" class="search" id="search-btn"></button>
+</form>
+<script>
+    const input = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+const expand = () => {
+  searchBtn.classList.toggle("close");
+  input.classList.toggle("square");
+};
+
+searchBtn.addEventListener("click", expand);
+</script>
+</body>
+</html>

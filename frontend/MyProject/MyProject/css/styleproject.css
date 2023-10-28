@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+body{
+	background: url(../img/bgg.jpg), url(../img/qHNF7HWlM9E.jpg) left no-repeat;
+}
+h1{
+	font-size: 36pt;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 2px rgb(0, 174, 255);
+	color: brown;
+	text-align: center;
+	margin: 30px;
+	font-style: italic;
+
+}
+.text{
+	color: #000;
+	font-size: 24px;
+	font-family: 'Courier New', Courier, monospace, sans-serif;
+	font-weight: 600;
+	padding: 0px 0px 10px 80px
+}
+.img{
+	width: 300px;
+	height: 300px;
+	padding-left: 30px;
+}
+
+	
+
+.text:visited{
+	text-decoration: underline;
+	color: blue;
+	
+}
+.text:hover{
+	color: red;
+	text-decoration: underline;
+}
+.text:active{
+	color:#6eec06;
+}
+.evaluationtion{
+	font-size: 24px;
+	padding: 10px;
+	 
+}
+.textarea{
+	background: #eff16b;
+}
+.button{
+	font-size: 30px;
+	height: 300px;
+	
+	background: url(../img/OJAOwSbIGLQ.jpg) 0 0/100% 100% no-repeat;
+}
+.video{
+	width: 600px;
+	height: 600px;
+}
+.animation{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+
+}
+.animation:hover{
+	background: red;
+	font-size: 32px;
+}
+/* .animation:before{
+	content: '';
+}
+.animation:after{
+	content: ''; */
+
+.animation::first-letter{
+	font-size: 40px;
+	color: red;
+}
+.block{
+	border: 4px solid red;
+}

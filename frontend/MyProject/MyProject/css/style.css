@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+
+div{
+    font-size: 20px;
+    color: rgb(117, 30, 30)
+	
+}
+.Arial{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.pt30{
+    font-size: 30px;
+    font-style: italic;
+	font-weight: 900;
+	
+	text-decoration: line-through;
+	text-shadow: 1pt 2pt 2pt #2c6e05;
+	letter-spacing: 3pt;
+	
+	letter-spacing
+}
+.image{
+	width: 100px;
+	height: 100px;
+}
+.center{
+	background: #3a9ab3 no-repeat, url('../img/kartinka.jpg') center right no-repeat;
+	line-height: 30pt;
+}
+.padding{
+	padding: 30px;
+	width: 550px;
+	border: 1px solid #000
+	
+
+}	
+.buttoncss:hover{
+	color: red;
+	background: #7cacf5;
+	font-size: 25px;
+	
+}
+.button{
+	font-size: 25px;
+}
+.contacts:visited{
+	color: yellow;
+}
